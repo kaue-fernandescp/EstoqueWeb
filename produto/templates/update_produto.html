@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block product %}
+
+<h1><strong>Alterar Produto</strong></h1><br>
+<form action="{% url 'produto:update_produto' pk %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <br><button class="button is-primary" type="submit">Salvar</button>
+</form>
+
+{% endblock %}
