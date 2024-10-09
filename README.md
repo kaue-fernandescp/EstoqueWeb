@@ -5,7 +5,6 @@ Vale ressaltar, que usei o Django (framework para desenvolvimento web, escrito e
 
 Para o funcionamento, você precisa de um ambiente virtual. Para criar, basta usar esse código no cmd, informando o local de criação: python -m venv
 Após isso, basta usar o seguinte caminho no cmd para ativar o ambiente virtual: env\Scripts\activate
-Assim, o ambiente virtual estará ativado.
 
 Com o django instalado, o ambiente virtual ativado e os arquivos baixados, escreva no cmd do VSCode digite: python manage.py runserver
 Caso tudo esteja certo, vai no seu navegador e digite: localhost:8000
